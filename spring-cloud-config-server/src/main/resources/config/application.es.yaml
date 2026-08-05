@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: greeting-service
+management:
+  endpoints:
+    web:
+      # escolhendo quais endpoinst do actuator a gente vai expor e tirar
+      exposure:
+        include:
+          # expondo todos eles com o *
+          - '*'
+  endpoint:
+    health:
+      #dizendo que dessa URL desse endpoint a gente sempre vai mostrar os detalhes
+      # ou seja ele vai mostrar as variaveis de ambiente , dados e etc.
+      show-details: ALWAYS
+
+greeting-service:
+  greeting: "Holla"
+    defaultValue: "Mundo"
