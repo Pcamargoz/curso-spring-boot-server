@@ -19,4 +19,4 @@ management:
 
 greeting-service:
   greeting: "Olá"
-    defaultValue: "Mundo"
+  defaultValue: "Mundo"

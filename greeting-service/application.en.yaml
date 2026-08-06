@@ -19,4 +19,4 @@ management:
 
 greeting-service:
   greeting: "Hello"
-    defaultValue: "Word"
+  defaultValue: "Word"
