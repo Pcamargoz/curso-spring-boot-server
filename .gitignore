@@ -1,0 +1,8 @@
+# IntelliJ IDEA
+.idea/
+
+# GitHub Actions / Workflows
+.github/
+
+# Projeto Spring Cloud Config Server
+spring-cloud-config-server/
